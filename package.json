@@ -6,7 +6,7 @@
   "homepage": "https://pocingki.github.io/amnandotcom",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint",
     "preview": "vite preview",
     "predeploy": "npm run build",

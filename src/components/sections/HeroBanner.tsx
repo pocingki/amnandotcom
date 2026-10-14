@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { WhatsAppIcon } from '../common/Icons';
 
 export default function HeroBanner() {
-  const waUrl = 'https://wa.me/62895329345424?text=Halo%20AMNAN.COM,%20saya%20tertarik%20konsultasi%20kampanye%20kreator.';
+  const waUrl = 'https://wa.me/62895329345424?text=Halo%20AMNAN.ID,%20saya%20tertarik%20konsultasi%20kampanye%20kreator.';
 
   return (
     <section className="relative overflow-hidden pt-20 pb-16 md:pt-28 md:pb-20 bg-zinc-950 text-white text-center px-4">

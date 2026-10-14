@@ -68,7 +68,7 @@ export default function Admin() {
             A
           </div>
           <div>
-            <span className="text-xl font-black tracking-tight">AMNAN<span className="text-[#ccff00]">.ADMIN</span></span>
+            <span className="text-xl font-black tracking-tight">AMNAN<span className="text-[#ccff00]">.ID</span></span>
             <span className="block text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Control Center</span>
           </div>
         </div>

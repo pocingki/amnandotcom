@@ -45,12 +45,12 @@ export default function Catalog() {
           <div className="max-w-md mx-auto flex items-center gap-2 bg-zinc-900 border border-zinc-800 rounded-xl px-4 py-3 focus-within:border-zinc-600 transition-colors">
             <SearchIcon />
             <input
-              type="text"
-              placeholder="Cari nama kreator atau spesialisasi..."
-              value={searchQuery}
-              onChange={e => setSearchQuery(e.target.value)}
-              className="bg-transparent border-none text-sm text-white outline-none w-full placeholder:text-zinc-500"
-            />
+  type="text"
+  placeholder="Cari nama kreator atau spesialisasi..."
+  value={searchQuery}
+  onChange={e => setSearchQuery(e.target.value)}
+  className="bg-transparent border-none text-sm text-white outline-none w-full placeholder:text-zinc-500"
+/>
           </div>
 
           <div className="flex flex-wrap gap-2 justify-center pt-2">
@@ -225,7 +225,7 @@ export default function Catalog() {
 
             {/* Tombol Hubungi WhatsApp di Dalam Modal */}
             <a
-              href={`https://wa.me/62895329345424?text=Halo%20AMNAN.COM,%20saya%20tertarik%20bekerja%20sama%20dengan%20kreator%20${encodeURIComponent(selectedCreator.name)}.`}
+              href={`https://wa.me/62895329345424?text=Halo%20AMNAN.ID,%20saya%20tertarik%20bekerja%20sama%20dengan%20kreator%20${encodeURIComponent(selectedCreator.name)}.`}
               target="_blank"
               rel="noreferrer"
               className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-[#ccff00] text-black font-extrabold text-xs hover:bg-[#b3e600] transition-colors shadow-lg"
