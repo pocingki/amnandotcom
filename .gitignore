@@ -1,0 +1,30 @@
+# Dependencies (jangan pernah di-upload/zip)
+node_modules/
+.pnp
+.pnp.js
+
+# Production Build Output
+dist/
+build/
+
+# Firebase Cache & Log Errors
+firebase-debug.log
+firebase-debug.*.log
+firestore-debug.log
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Editor & OS Files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cache Compiler
+.eslintcache
+.vite/
+*.local
